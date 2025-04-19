@@ -1,0 +1,10 @@
+[eternalserver]
+enabled = true
+filter = eternalserver
+logpath = /path/to/telnet.log.txt
+maxretry = 3
+findtime = 3600
+bantime = 9000
+backend = auto
+action = %(action_)s
+         %(action_abuseipdb)s[abuseipdb_apikey="REPLACE WITH YOUR API KEY", abuseipdb_category="19,21"]
